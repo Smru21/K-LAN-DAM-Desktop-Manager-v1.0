@@ -1,16 +1,26 @@
 # KĀLANĀDAM Manager 🖥️
 ### Desktop Companion for the KĀLANĀDAM Smart Bell System
 
-KĀLANĀDAM Manager is a Python-based utility designed to manage audio assets and synchronize schedules for the KĀLANĀDAM ESP32 Bell System. It simplifies SD card formatting, folder management, and file naming conventions.
+KĀLANĀDAM Manager is a Python-based desktop utility designed to manage audio assets and synchronize schedules for the KĀLANĀDAM ESP32 Bell System.
+
+---
+
+## 🔧 Core Requirement
+This application is designed specifically to work with the **KĀLANĀDAM Firmware**. The firmware must be installed on your ESP32 hardware for full system functionality.
+
+👉 **[Get the KĀLANĀDAM Firmware Here]([PASTE_LINK_TO_FIRMWARE_REPO])**
+
+---
 
 ## 🚀 Features
 - **SD Card Management:** Automatically creates the required `01/` and `02/` folder structures.
-- **Audio Prep:** Validates and renames MP3 files to the required 4-digit format (`0001.mp3`).
-- **ESP32 Sync:** Syncs track names and metadata with the ESP32 over Serial/WiFi.
-- **User Interface:** Clean, intuitive UI built with PyQt5/PySide.
+- **Audio Validation:** Renames and formats MP3 files to the hardware-required 4-digit standard (`0001.mp3`).
+- **Metadata Sync:** (Optional) Syncs track names with the ESP32 over Serial/WiFi.
+- **Cross-Platform:** Built with PyQt6 for a smooth desktop experience.
 
 ## 🛠️ Installation
 1. Clone the repository.
-2. Create a virtual environment:
+2. Create and activate a virtual environment.
+3. Install dependencies:
    ```bash
-   python -m venv venv
+   pip install -r requirements.txt
