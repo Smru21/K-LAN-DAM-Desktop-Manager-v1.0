@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/cb760f32-27ef-4fa0-bd4a-130a4d367aee" />
 # KĀLANĀDAM Manager 🖥️
 ### Desktop Companion for the KĀLANĀDAM Smart Bell System
 
