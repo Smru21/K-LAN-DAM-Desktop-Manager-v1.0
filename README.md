@@ -8,7 +8,7 @@ KĀLANĀDAM Manager is a Python-based desktop utility designed to manage audio a
 ## 🔧 Core Requirement
 This application is designed specifically to work with the **KĀLANĀDAM Firmware**. The firmware must be installed on your ESP32 hardware for full system functionality.
 
-👉 **[Get the KĀLANĀDAM Firmware Here]([PASTE_LINK_TO_FIRMWARE_REPO])**
+👉 **[Get the KĀLANĀDAM Firmware Here](https://github.com/Smru21/Kaalanadham)**
 
 ---
 
